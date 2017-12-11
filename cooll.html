@@ -235,5 +235,45 @@
        <img src="images/html.png">
  </div>
     <!-- <h1> this is my first program!</h1>  -->
+	<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>asas</title>
+</head>
+<body>
+	<center>
+		<canvas id="cavsElem">
+			nadadasdadasd
+		</canvas>
+	</center>
+		<script>
+			(function () {
+				var canvas = document.getElementById('cavsElem');
+				var context = canvas.getContext('2d');
+				canvas.width=900;
+				canvas.height = 600;
+				canvas.style.border ="1px solid red";
+
+
+				canvas.onmousedown = function(e){
+					var x=e.clientX - canvas.getBoundingClientRect().left;
+					var y=e.clientY - canvas.getBoundingClientRect().top;
+					context.beginPath();
+					context.moveTo(x,y);
+					canvas.onmousemove = function(event){
+					var x=event.clientX - canvas.getBoundingClientRect().left;
+					var y=event.clientY - canvas.getBoundingClientRect().top;
+					context.lineTo(x,y);
+					context.stroke();
+				};
+				canvas.onmouseup = function(event){
+					canvas.onmousemove =null;
+				};
+				};
+			}());
+		</script>
+</body>
+</html> -->
 </body>
 </html>
